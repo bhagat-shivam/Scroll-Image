@@ -10,7 +10,7 @@
 
  nextBtn.addEventListener("click", ()=>{
     scrollContainer.style.scrollBehavior = "smooth";
-    scrollContainer.scrollLeft += 900;
+    scrollContainer.scrollLeft += 900;  // 900 is used becoz the width of the screen is 900;
  });
 
  backBtn.addEventListener("click", ()=>{
